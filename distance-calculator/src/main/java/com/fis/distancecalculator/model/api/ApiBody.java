@@ -1,7 +1,6 @@
 package com.fis.distancecalculator.model.api;
 
 import com.fis.distancecalculator.model.domain.City;
-import org.joda.time.LocalTime;
 
 public class ApiBody {
     private City fromCity;
@@ -9,7 +8,7 @@ public class ApiBody {
     private Integer distance;
     private String duration;
     private Integer numberOfStops;
-    private Integer durationOfStop;
+    private Integer durationOfStopInMinutes;
 
     public ApiBody(City fromCity, City toCity, Integer distance, String duration, Integer numberOfStops,
                    Integer durationOfStopInMinutes){
@@ -18,6 +17,7 @@ public class ApiBody {
         this.distance = distance;
         this.duration = duration;
         this.numberOfStops = numberOfStops;
+        this.durationOfStopInMinutes = durationOfStopInMinutes;
     }
 
     public City getFromCity() {
@@ -40,7 +40,7 @@ public class ApiBody {
         return numberOfStops;
     }
 
-    public Integer getDurationOfStop() {
-        return durationOfStop;
+    public Integer getDurationOfStopInMinutes() {
+        return durationOfStopInMinutes;
     }
 }

@@ -1,0 +1,32 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1>
+    {{ title }}
+  </h1>
+
+  <h2>This app calculates the distance between, two major South African cities. \nThe South African cities available
+    are: Johannesburg(JHB), Cape Town(CPT) and DUrban(DBN).</h2>
+  <div>
+    <div>
+      <b>From City Code</b>
+      <input [(ngModel)]="fromCityCode" type="textbox"/>
+    </div>
+    <div>
+      <b>To City Code</b>
+      <input [(ngModel)]="toCityCode" type="textbox"/>
+    </div>
+    <div>
+      <b>Average Speed</b>
+      <input [(ngModel)]="averageSpeed" type="textbox"/>
+    </div>
+    <div>
+      <button (click)="calculateDistance()">Calculate distance</button>
+    </div>
+  </div>
+  <div style="padding:50px">
+    <h2>
+      {{apiResult | json}}
+    </h2>
+  </div>
+</div>
+
