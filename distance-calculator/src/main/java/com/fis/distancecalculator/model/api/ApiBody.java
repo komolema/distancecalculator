@@ -1,6 +1,6 @@
-package com.fis.distancecalculator.model.api;
+package com.dc.distancecalculator.model.api;
 
-import com.fis.distancecalculator.model.domain.City;
+import com.dc.distancecalculator.model.domain.City;
 
 public class ApiBody {
     private City fromCity;

@@ -1,4 +1,4 @@
-package com.fis.distancecalculator;
+package com.dc.distancecalculator;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

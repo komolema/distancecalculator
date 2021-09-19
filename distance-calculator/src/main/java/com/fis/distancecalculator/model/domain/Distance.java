@@ -1,4 +1,4 @@
-package com.fis.distancecalculator.model.domain;
+package com.dc.distancecalculator.model.domain;
 
 import javax.persistence.*;
 

@@ -8,7 +8,7 @@
         <version>2.1.4.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.fis</groupId>
+    <groupId>com.dc</groupId>
     <artifactId>distance-calculator</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>distance-calculator</name>

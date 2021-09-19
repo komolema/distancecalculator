@@ -1,4 +1,4 @@
-package com.fis.distancecalculator.constants;
+package com.dc.distancecalculator.constants;
 
 public final class DistanceCalculatorConstants {
     public static final String NO_DISTANCE_FOUND_CODE = "001";

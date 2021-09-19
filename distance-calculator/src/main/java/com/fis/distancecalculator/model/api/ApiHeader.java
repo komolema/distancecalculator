@@ -1,4 +1,4 @@
-package com.fis.distancecalculator.model.api;
+package com.dc.distancecalculator.model.api;
 
 public class ApiHeader {
     private String code;

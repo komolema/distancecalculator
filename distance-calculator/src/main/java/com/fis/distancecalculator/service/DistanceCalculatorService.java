@@ -1,14 +1,14 @@
-package com.fis.distancecalculator.service;
+package com.dc.distancecalculator.service;
 
-import com.fis.distancecalculator.constants.DistanceCalculatorConstants;
-import com.fis.distancecalculator.model.api.ApiBody;
-import com.fis.distancecalculator.model.api.ApiHeader;
-import com.fis.distancecalculator.model.api.ApiResult;
-import com.fis.distancecalculator.model.api.ExtractedHourAndTime;
-import com.fis.distancecalculator.model.domain.City;
-import com.fis.distancecalculator.model.domain.Distance;
-import com.fis.distancecalculator.repo.CityRepository;
-import com.fis.distancecalculator.repo.DistanceRepository;
+import com.dc.distancecalculator.constants.DistanceCalculatorConstants;
+import com.dc.distancecalculator.model.api.ApiBody;
+import com.dc.distancecalculator.model.api.ApiHeader;
+import com.dc.distancecalculator.model.api.ApiResult;
+import com.dc.distancecalculator.model.api.ExtractedHourAndTime;
+import com.dc.distancecalculator.model.domain.City;
+import com.dc.distancecalculator.model.domain.Distance;
+import com.dc.distancecalculator.repo.CityRepository;
+import com.dc.distancecalculator.repo.DistanceRepository;
 import org.joda.time.LocalTime;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

@@ -1,7 +1,7 @@
-package com.fis.distancecalculator.api;
+package com.dc.distancecalculator.api;
 
-import com.fis.distancecalculator.model.api.ApiResult;
-import com.fis.distancecalculator.service.DistanceCalculatorService;
+import com.dc.distancecalculator.model.api.ApiResult;
+import com.dc.distancecalculator.service.DistanceCalculatorService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;

@@ -1,6 +1,6 @@
-package com.fis.distancecalculator.repo;
+package com.dc.distancecalculator.repo;
 
-import com.fis.distancecalculator.model.domain.City;
+import com.dc.distancecalculator.model.domain.City;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.data.repository.query.Param;
